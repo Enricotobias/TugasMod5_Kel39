@@ -1,0 +1,49 @@
+.containerBig {
+    padding-left: 40px;
+    position: relative; /* Menentukan posisi elemen anak */
+    transition: transform 0.2s ease; /* Efek transisi */
+  }
+  
+  .containerBig:hover {
+    transform: scale(1.1); /* Skala elemen saat hover */
+  }
+  
+  .posterBig {
+    width: 280px;
+    height: 160px;
+    border-radius: 20px;
+    transition: transform 0.2s ease; /* Efek transisi */
+  }
+  
+  .containerBig:hover .posterBig {
+    transform: scale(1.1); /* Skala gambar saat hover */
+  }
+  
+  .descriptionBig {
+    display: flex;
+    align-items: center;
+    position: relative; /* Menentukan posisi elemen anak */
+    color: #776B5D;
+  }
+  
+  #title {
+    color: #776B5D;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana;
+  }
+  
+  .stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #genre {
+    color: #776B5D;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  

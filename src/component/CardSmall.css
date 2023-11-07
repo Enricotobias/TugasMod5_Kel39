@@ -1,0 +1,66 @@
+.card {
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Efek transisi saat hover */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Skala elemen saat hover */
+  }
+  
+  .photo {
+    width: 90px;
+    height: 120px;
+    border-radius: 12px;
+    transition: transform 0.2s ease; /* Efek transisi saat hover */
+  }
+  
+  .card:hover .photo {
+    transform: scale(1.05); /* Skala gambar saat hover */
+  }
+  
+  .description {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  #title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana;
+    transition: transform 0.2s ease; /* Efek transisi saat hover */
+  }
+  
+  #title:hover {
+    transform: scale(1.05); /* Skala judul saat hover */
+  }
+  
+  .stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease; /* Efek transisi saat hover */
+  }
+  
+  .stars:hover {
+    transform: scale(1.05); /* Skala elemen bintang saat hover */
+  }
+  
+  #genre {
+    color: grey;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+    transition: transform 0.2s ease; /* Efek transisi saat hover */
+  }
+  
+  #genre:hover {
+    transform: scale(1.05); /* Skala elemen genre saat hover */
+  }
+  
